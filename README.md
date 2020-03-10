@@ -18,3 +18,8 @@ Console commands will vary throughout based on OS.
     ```console
     django-admin startproject blog .
     ```
+
+3. Initialise database and prepare tables:
+    ```console
+    python3 manage.py migrate
+    ```
