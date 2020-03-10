@@ -47,3 +47,6 @@ Console commands will vary throughout based on OS.
     ```console
     python3 manage.py startapp posts
     ```
+
+10. Create templates folder within app, static and media folders within root.  
+    Create img folder within media, css, img and js folders within static.
