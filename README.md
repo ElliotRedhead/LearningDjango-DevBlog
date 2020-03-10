@@ -50,3 +50,5 @@ Console commands will vary throughout based on OS.
 
 10. Create templates folder within app, static and media folders within root.  
     Create img folder within media, css, img and js folders within static.
+
+11. Configure [settings.py](blog/settings.py) to include newly-created folders.
