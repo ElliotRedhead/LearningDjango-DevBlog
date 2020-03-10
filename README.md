@@ -25,6 +25,12 @@ Console commands will vary throughout based on OS.
     ```
 
 4. Run the server.
-    ```console.
+    ```console
     python3 manage.py runserver
+    ```
+
+5. Add non-required files to [.gitignore](.gitignore):
+    ```
+    __pycache__
+    *.sqlite3
     ```
