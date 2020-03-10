@@ -3,7 +3,7 @@
 ## Purpose / Scope
 
 This project serves to practice the fundamentals of Django development.  
-For a walkthrough summary of the project, see [development steps](#development-steps)
+For a walkthrough summary of the project, see [development steps](#development-steps).
 
 [![Build Status](https://travis-ci.org/ElliotRedhead/Django-DevBlog.svg?branch=master)](https://travis-ci.org/ElliotRedhead/Django-DevBlog)
 
