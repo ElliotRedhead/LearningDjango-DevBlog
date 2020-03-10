@@ -23,3 +23,8 @@ Console commands will vary throughout based on OS.
     ```console
     python3 manage.py migrate
     ```
+
+4. Run the server.
+    ```console.
+    python3 manage.py runserver
+    ```
