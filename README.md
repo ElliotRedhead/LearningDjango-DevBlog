@@ -42,3 +42,8 @@ Console commands will vary throughout based on OS.
 7. Copy markdown in build status of the target repo.
 
 8. Create and populate [.travis.yml](.travis.yml).
+
+9. Create a Django app:
+    ```console
+    python3 manage.py startapp posts
+    ```
