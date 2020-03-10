@@ -13,3 +13,8 @@ Console commands will vary throughout based on OS.
     ```console
     pip3 install django==1.11.24
     ```
+
+2. Create a Django project:
+    ```console
+    django-admin startproject blog .
+    ```
