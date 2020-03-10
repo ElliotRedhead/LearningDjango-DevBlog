@@ -1,6 +1,6 @@
 language: python
 python:
-  -"3.4"
+  -"3.7.6"
 install: "pip3 install -r requirements.txt"
 script:
   - SECRET_KEY="placeholderkey" ./manage.py test
