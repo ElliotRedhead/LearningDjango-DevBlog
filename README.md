@@ -52,3 +52,10 @@ Console commands will vary throughout based on OS.
     Create img folder within media, css, img and js folders within static.
 
 11. Configure [settings.py](blog/settings.py) to include newly-created folders.
+
+12. Create any required [models](posts/models.py) and templates e.g. [forms](posts/templates/forms.py).
+
+13. If an ImageField is required:
+    ```console
+    pip3 install Pillow
+    ```
