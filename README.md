@@ -59,3 +59,9 @@ Console commands will vary throughout based on OS.
     ```console
     pip3 install Pillow
     ```
+
+14. Make migrations following those changes:
+    ```console
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    ```
