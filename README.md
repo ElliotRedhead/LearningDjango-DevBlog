@@ -65,3 +65,8 @@ Console commands will vary throughout based on OS.
     python3 manage.py makemigrations
     python3 manage.py migrate
     ```
+
+15. Create your required [views](posts/views.py).
+
+16. Create your app's required [URLs](posts/urls.py) and any necessary links to the overall project in your project's required [URLs](blog/urls.py).
+
