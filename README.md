@@ -77,3 +77,9 @@ Console commands will vary throughout based on OS.
 19. Deploy to Heroku, include any environmental variables you require such as secret keys in the "Config Vars" section.
 
 20. If using a postgreSQL database in Heroku, under the Resources tab add Heroku Postgres, copy the newly-created environmental variable to the local env.py file for testing.
+
+21. Complete the required Procfile for deployment:
+    ```
+    web: gunicorn blog.wsgi:application
+    web: gunicorn <appname>.wsgi:application
+    ```
