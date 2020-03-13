@@ -70,3 +70,10 @@ Console commands will vary throughout based on OS.
 
 16. Create your app's required [URLs](posts/urls.py) and any necessary links to the overall project in your project's required [URLs](blog/urls.py).
 
+17. Create your required [templates](posts/templates/blogposts.html).
+
+18. Ensure the app is included in the INSTALLED_APPS list of the [settings.py](blog/settings.py) file.
+
+19. Deploy to Heroku, include any environmental variables you require such as secret keys in the "Config Vars" section.
+
+20. If using a postgreSQL database in Heroku, under the Resources tab add Heroku Postgres, copy the newly-created environmental variable to the local env.py file for testing.
